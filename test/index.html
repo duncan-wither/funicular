@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 25%;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #777;
+}
+
+div.gallery {
+  border: 5px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 5px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<ul>
+  <li>Film 1</li>
+  <li>Film 2</li>
+  <li>Film 3</li>
+  <li>Film 4</li>
+  <li>Film 5</li>
+  <li>Film 6</li>
+</ul>
+
+
+<img src="testim.png">
+
+</body>
+</html>
