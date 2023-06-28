@@ -1,18 +1,16 @@
 # funicular config
 
+# Api Keys
+[[API]]
+    # Use API keys to get info?
+    use=true
+    # overwrite existing info?
+    overwrite=false
+    OMDB=""
 
-# Library Info
+# Test Lib
 [[Library]]
-    name="Film"
-    location="/media/slam/C/Films"
-    folder_structure=["picture_list","endpoint"]
-
-[[Library]]
-    name="TV"
-    location="/media/slam/D/TV"
-    folder_structure=["picture_list","list","list","endpoint"]
-
-[[Library]]
-    name="Stand Up"
-    location="/media/slam/E/library/standup"
-    folder_structure=["picture_list","list","endpoint"]
+    name="Test Dir"
+    location="./test_dirs/Films/"
+    folder_structure=["picture_list"]
+    page_titles=["Film"]
